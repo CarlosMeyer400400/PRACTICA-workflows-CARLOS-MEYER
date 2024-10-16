@@ -22,6 +22,7 @@ jobs:
       - name: Read file  # Lee el contenido del archivo hola.txt
         run: |
           cat hola.txt
+          ls -al
 
   dos:
     runs-on: ubuntu-latest
